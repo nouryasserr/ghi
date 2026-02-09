@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter Variable", sans-serif;
+}
+
+/* grid-projects */
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.8fr 1.2fr 0.5fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    "area01 area02 area03"
+    "area04 area02 area03"
+    "area04 area05 area03"
+    "area04 area05 area06";
+}
+
+.area05 {
+  grid-area: area05;
+}
+
+.area04 {
+  grid-area: area04;
+}
+
+.area03 {
+  grid-area: area03;
+}
+
+.area02 {
+  grid-area: area02;
+}
+
+.area01 {
+  grid-area: area01;
+}
+
+.area06 {
+  grid-area: area06;
+}
+
+@media (max-width: 1024px) {
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 0.8fr 1.2fr 0.6fr 2fr 0.6fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "area01 area02"
+      "area04 area02"
+      "area04 area05"
+      "area04 area05"
+      "area03 area03"
+      "area06 area06";
+  }
+}
+
+@media (max-width: 640px) {
+  .container-grid {
+    grid-template-rows: 1.5fr 2fr 0.6fr;
+    gap: 20px 0px;
+    grid-template-areas:
+      "area01 area01"
+      "area03 area03"
+      "area06 area06";
+  }
+}
+/* end-grid-projects */
