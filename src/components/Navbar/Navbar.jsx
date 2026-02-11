@@ -34,7 +34,7 @@ function Navbar() {
       } border-t`}
     >
       <div className="container flex items-center justify-between py-3">
-        <NavLink to="/home">
+        <NavLink to="/">
           <img className="h-16" src={logo} alt="logo" />
         </NavLink>
         <ul className="hidden md:flex items-center gap-x-7">
