@@ -13,7 +13,7 @@ function App() {
       path: "/",
       element: <Layout />,
       children: [
-        { path: "/home", element: <Home /> },
+        { path: "/", element: <Home /> },
         {
           path: "/about",
           element: <About />,
