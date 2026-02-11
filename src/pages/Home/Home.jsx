@@ -27,9 +27,9 @@ function Home() {
                 <span className="font-medium sm:pt-4 block">Skylines</span>
               </h1>
               <p className="text-slate-300 text-sm sm:text-base xl:text-lg">
-                Providing versatile and customized formwork solutions through an
-                engineering approach with unwavering focus on quality and
-                innovation
+                Delivering flexible, tailor-made formwork solutions through an
+                engineering-driven approach, with a strong and consistent focus
+                on quality and innovation
               </p>
             </div>
             <div className="bg-white p-2 sm:p-4 pb-0 w-fit sm:w-96 rounded-tr-3xl">
@@ -54,9 +54,9 @@ function Home() {
               About GHI Formwork
             </h3>
             <p className="text-center lg:text-left text-sm xs:text-base xl:text-lg text-slate-700">
-              From our German engineering roots in Gelsenkirchen to becoming the
-              Middle East's premier formwork innovator, GHI has spent two
-              decades transforming how the world builds
+              From our German engineering origins in Gelsenkirchen to emerging
+              as the Middle East’s leading formwork innovator, GHI has dedicated
+              over two decades to reshaping the way the world builds
             </p>
           </div>
           <h5 className="text-lg xs:text-2xl text-zinc-700 font-medium flex items-center gap-x-2">
@@ -111,9 +111,8 @@ function Home() {
             Intelligent Formwork Systems
           </h4>
           <p className="text-sm xs:text-base text-center xl:w-1/2 mx-auto text-slate-700">
-            Transforming construction sites into precision-engineered
-            environments where every pour is optimized, every timeline
-            accelerated
+            Turning construction sites into precision-engineered spaces where
+            every pour is optimized and every timeline is accelerated
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center mt-12 gap-8">
@@ -128,8 +127,8 @@ function Home() {
                 Wall Formwork Systems
               </h5>
               <p className="text-slate-700">
-                AI-optimized configurations delivering 40% faster assembly with
-                integrated IoT sensors for real-time monitoring
+                AI-optimized configurations enabling up to 40% faster assembly,
+                supported by integrated IoT sensors for real-time monitoring
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-sm gap-2">
@@ -167,8 +166,9 @@ function Home() {
                 Column Formwork Solutions
               </h5>
               <p className="text-slate-700">
-                Modular systems for circular, rectangular, and custom geometries
-                with quick-connect mechanisms reducing setup by 60%
+                Modular systems supporting circular, rectangular, and custom
+                geometries, featuring quick-connect mechanisms that reduce setup
+                time by up to 60%
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-sm gap-2">
@@ -206,8 +206,8 @@ function Home() {
                 Smart Climbing Systems
               </h5>
               <p className="text-slate-700">
-                Self-climbing platforms with predictive maintenance algorithms
-                and automated safety compliance verification
+                Self-climbing platforms powered by predictive maintenance
+                algorithms and automated safety compliance verification
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-sm gap-2">
@@ -248,9 +248,9 @@ function Home() {
               </span>
             </h4>
             <p className="text-sm sm:text-base text-slate-700">
-              Born from German engineering precision in Gelsenkirchen and raised
-              on global construction sites, we don't just supply formwork—we
-              engineer possibilities
+              Rooted in German engineering precision in Gelsenkirchen and shaped
+              by construction sites worldwide, we don’t just deliver formwork —
+              we engineer possibilities
             </p>
           </div>
           <div className="flex lg:hidden w-28 h-20 sm:w-60 sm:h-32 p-4 bg-primary-400 rounded-full !mt-0 items-center justify-center text-xs sm:text-sm text-center text-white">
@@ -276,8 +276,8 @@ function Home() {
                 Strategic Global Presence
               </h5>
               <p className="text-slate-700 text-sm xs:text-base">
-                Local expertise backed by global standards in Middle East,
-                Europe, Asia, and Africa
+                Local expertise supported by global standards across the Middle
+                East, Europe, Asia, and Africa
               </p>
             </div>
           </div>
@@ -290,7 +290,8 @@ function Home() {
                 ISO 9001:2015 Certified
               </h5>
               <p className="text-slate-700 text-sm xs:text-base">
-                Quality management systems that exceed international standards
+                Advanced quality management systems exceeding international
+                standards
               </p>
             </div>
           </div>
@@ -303,8 +304,8 @@ function Home() {
                 24/7 Engineering Support
               </h5>
               <p className="text-slate-700 text-sm xs:text-base">
-                Round-the-clock technical assistance for mission-critical
-                projects
+                Around-the-clock technical assistance ensuring seamless
+                execution of mission-critical projects
               </p>
             </div>
           </div>
@@ -317,8 +318,8 @@ function Home() {
                 24/7 Engineering Support
               </h5>
               <p className="text-slate-700 text-sm xs:text-base">
-                Round-the-clock technical assistance for mission-critical
-                projects
+                Around-the-clock technical assistance ensuring seamless
+                execution of mission-critical projects
               </p>
             </div>
           </div>
@@ -377,8 +378,9 @@ function Home() {
               Projects That Define Skylines
             </h4>
             <p className="text-sm xs:text-base text-center xs:text-left text-slate-700">
-              From iconic towers to infrastructure megaprojects, our formwork
-              systems shape the world's most ambitious constructions
+              From iconic towers to large-scale infrastructure projects, our
+              formwork systems shape some of the world’s most ambitious
+              constructions
             </p>
           </div>
           <div className="area06">
@@ -399,8 +401,8 @@ function Home() {
             The Future of Formwork is Digital
           </h4>
           <p className="text-center text-sm xs:text-base lg:w-1/2 mx-auto text-slate-700">
-            Pioneering smart construction with IoT sensors, AI optimization, and
-            real-time monitoring systems
+            Pioneering intelligent construction through IoT sensors, AI
+            optimization, and continuous real-time monitoring
           </p>
         </div>
         <div className="mt-12 flex flex-col lg:flex-row justify-between gap-x-12">
@@ -420,8 +422,8 @@ function Home() {
                   BIM Integration
                 </h5>
                 <p className="text-slate-700 text-sm xs:text-base">
-                  Seamless integration with Building Information Modeling for
-                  precise planning and clash detection before site deployment
+                  Effortless BIM integration enabling precise planning and
+                  clash-free execution before reaching the site
                 </p>
               </div>
             </div>
@@ -434,8 +436,8 @@ function Home() {
                   Real-time Analytics
                 </h5>
                 <p className="text-slate-700 text-sm xs:text-base">
-                  Live dashboard monitoring of concrete pressure, temperature,
-                  and curing progress accessible from anywhere
+                  Real-time dashboard tracking concrete pressure, temperature,
+                  and curing progress, available anytime, anywhere
                 </p>
               </div>
             </div>
@@ -448,8 +450,8 @@ function Home() {
                   AI-Powered Optimization
                 </h5>
                 <p className="text-slate-700 text-sm xs:text-base">
-                  Round-the-clock technical assistance for mission-critical
-                  projects
+                  Around-the-clock technical assistance ensuring flawless
+                  execution of mission-critical projects
                 </p>
               </div>
             </div>

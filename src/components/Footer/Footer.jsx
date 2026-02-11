@@ -10,8 +10,7 @@ function Footer() {
               GHI FORMWORK
             </h4>
             <p className="text-slate-700 text-center sm:text-left text-sm sm:text-base">
-              Engineering tomorrow's skylines with German precision and global
-              expertise
+              Where Strategy Takes Shape
             </p>
           </div>
           <ul className="flex gap-2 flex-wrap md:gap-10 items-center justify-center px-4 py-2 rounded-sm">
