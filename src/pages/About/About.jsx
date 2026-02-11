@@ -23,7 +23,7 @@ function About() {
               global construction for over twenty years
             </p>
           </div>
-          <div className="hidden bg-white p-2 sm:p-4 pb-0 w-fit w-3/4 rounded-tr-3xl md:flex flex-wrap md:flex-nowrap justify-around">
+          <div className="hidden bg-white p-2 sm:p-4 pb-0 w-fit w-3/4 rounded-tr-3xl md:flex justify-around">
             <div className="text-zinc-600 flex items-center gap-2 font-semibold">
               <span className="text-xl">20+</span>
               <span className="text-sm">Years of Excellence</span>

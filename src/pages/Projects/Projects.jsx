@@ -9,10 +9,10 @@ function Projects() {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="absolute bottom-0 left-0">
-          <div className="p-4 sm:p-10 sm:w-3/5 text-center sm:text-left">
-            <h2 className="text-white pb-2 sm:pb-5 text-xl sm:text-4xl xl:text-5xl text-nowrap">
+          <div className="p-4 sm:p-10 md:w-3/5 text-center sm:text-left">
+            <h2 className="text-white pb-2 md:pb-5 text-xl md:text-4xl xl:text-5xl text-nowrap">
               Projects That Define
-              <span className="font-medium sm:pt-4 block text-primary-500">
+              <span className="font-medium md:pt-4 block text-primary-500">
                 Skylines
               </span>
             </h2>
@@ -22,7 +22,7 @@ function Projects() {
               countries
             </p>
           </div>
-          <div className="bg-white p-2 sm:p-4 pb-0 w-fit sm:w-3/4 rounded-tr-3xl flex justify-around">
+          <div className="hidden bg-white p-2 sm:p-4 pb-0 w-fit sm:w-3/4 rounded-tr-3xl md:flex justify-around">
             <div className="text-zinc-600 flex items-center gap-2 font-semibold">
               <span className="text-xl">5000+</span>
               <span className="text-sm">Projects and Services Completed</span>
