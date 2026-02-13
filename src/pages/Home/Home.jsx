@@ -9,8 +9,27 @@ import solution02 from "../../assets/imgs/solution2.jpeg";
 import solution03 from "../../assets/imgs/solution3.jpeg";
 import global from "../../assets/imgs/global.jpeg";
 import future from "../../assets/imgs/future.jpeg";
+import { useEffect, useState } from "react";
 
 function Home() {
+  const fullText =
+    "Delivering flexible, tailor-made formwork solutions through an engineering-driven approach, with a strong and consistent focus on quality and innovation";
+
+  const [displayedText, setDisplayedText] = useState("");
+
+  useEffect(() => {
+    let i = 0;
+
+    const interval = setInterval(() => {
+      setDisplayedText(fullText.slice(0, i + 1));
+      i++;
+
+      if (i === fullText.length) clearInterval(interval);
+    }, 30);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       {/* intro */}
@@ -23,13 +42,11 @@ function Home() {
           <div className="absolute bottom-0 left-0">
             <div className="p-4 sm:p-10 sm:w-3/5 text-center sm:text-left">
               <h1 className="text-white pb-2 sm:pb-5 text-xl sm:text-4xl xl:text-6xl text-nowrap">
-                Engineering Tomorrow's{" "}
-                <span className="font-medium sm:pt-4 block">Skylines</span>
+                Where Strategy
+                <span className="font-medium sm:pt-4 block">Takes Shape</span>
               </h1>
-              <p className="text-slate-300 text-sm sm:text-base xl:text-lg">
-                Delivering flexible, tailor-made formwork solutions through an
-                engineering-driven approach, with a strong and consistent focus
-                on quality and innovation
+              <p className="text-slate-300 text-sm sm:text-base xl:text-lg min-h-[60px]">
+                {displayedText}
               </p>
             </div>
             <div className="bg-white p-2 sm:p-4 pb-0 w-fit sm:w-96 rounded-tr-3xl">
@@ -333,7 +350,7 @@ function Home() {
             className="area05 bg-cover bg-center rounded-2xl relative"
             style={{ backgroundImage: `url(${project04})` }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
                 Business Bay Complex
@@ -344,7 +361,7 @@ function Home() {
             className="area04 bg-cover bg-center rounded-2xl relative"
             style={{ backgroundImage: `url(${project03})` }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
                 Metropolitan Tower
@@ -355,7 +372,7 @@ function Home() {
             className="area03 bg-cover bg-center rounded-2xl relative"
             style={{ backgroundImage: `url(${project02})` }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
                 Makkah Grand Development
@@ -366,7 +383,7 @@ function Home() {
             className="area02 bg-cover bg-center rounded-2xl relative"
             style={{ backgroundImage: `url(${project01})` }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
                 Dubai Marina Twin Towers

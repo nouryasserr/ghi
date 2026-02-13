@@ -7,7 +7,7 @@ function Footer() {
         <div className="container flex items-center justify-center sm:justify-between flex-wrap gap-4 space-y-2 sm:space-y-4">
           <div className="md:w-2/5 lg:w-1/4">
             <h4 className="text-2xl text-primary-900 text-center sm:text-left mb-2">
-              GHI FORMWORK
+              GHI FORMWORK SOLUTIONS
             </h4>
             <p className="text-slate-700 text-center sm:text-left text-sm sm:text-base">
               Where Strategy Takes Shape

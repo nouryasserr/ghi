@@ -23,7 +23,7 @@ function About() {
               global construction for over twenty years
             </p>
           </div>
-          <div className="hidden bg-white p-2 sm:p-4 pb-0 w-fit w-3/4 rounded-tr-3xl md:flex justify-around">
+          <div className="hidden bg-white p-2 sm:p-4 pb-0 w-fit md:w-3/4 rounded-tr-3xl md:flex justify-around">
             <div className="text-zinc-600 flex items-center gap-2 font-semibold">
               <span className="text-xl">20+</span>
               <span className="text-sm">Years of Excellence</span>
@@ -136,9 +136,11 @@ function About() {
           </div>
           <div className="flex flex-col justify-center md:border-r p-12">
             <div className="text-center text-primary-500 text-3xl font-semibold mb-4">
-              OHSAS 18001
+              ISO 45001
             </div>
-            <div className="text-center text-slate-700">Safety Management</div>
+            <div className="text-center text-slate-700">
+              Occupational Health and Safety
+            </div>
           </div>
           <div className="flex flex-col justify-center p-12">
             <div className="text-center text-primary-500 text-3xl font-semibold mb-4">
