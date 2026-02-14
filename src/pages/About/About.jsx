@@ -86,11 +86,9 @@ function About() {
           <div className="flex flex-col justify-center gap-8">
             <div className="mx-auto w-28 h-28 rounded-tl-full rounded-tr-full rounded-br-full bg-slate-400"></div>
             <div>
-              <h6 className="text-center text-xl font-medium">
-                Mohammed Al-Rashid
-              </h6>
+              <h6 className="text-center text-xl font-medium">Hesham Embaby</h6>
               <p className="text-primary-500 text-sm text-center">
-                Chief Executive Officer
+                General Manager ( Middle East )
               </p>
             </div>
           </div>
@@ -98,19 +96,32 @@ function About() {
             <div className="mx-auto w-28 h-28 rounded-tl-full rounded-tr-full rounded-br-full bg-slate-400"></div>
             <div>
               <h6 className="text-center text-xl font-medium">
-                Dr. Klaus Weber
+                Florian Kolano
               </h6>
               <p className="text-primary-500 text-sm text-center">
-                Chief Technology Officer
+                Technical Consultant
               </p>
             </div>
           </div>
           <div className="flex flex-col justify-center gap-8">
             <div className="mx-auto w-28 h-28 rounded-tl-full rounded-tr-full rounded-br-full bg-slate-400"></div>
             <div>
-              <h6 className="text-center text-xl font-medium">Sarah Chen</h6>
+              <h6 className="text-center text-xl font-medium">
+                Mohamed Mukhtar Shah
+              </h6>
               <p className="text-primary-500 text-sm text-center">
-                Chief Operations Officer
+                Senior Field Supervisor
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center gap-8">
+            <div className="mx-auto w-28 h-28 rounded-tl-full rounded-tr-full rounded-br-full bg-slate-400"></div>
+            <div>
+              <h6 className="text-center text-xl font-medium">
+                Khalid Abdullatif
+              </h6>
+              <p className="text-primary-500 text-sm text-center">
+                Administrative Manager
               </p>
             </div>
           </div>
