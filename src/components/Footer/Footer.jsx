@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import portfolio from "../../assets/portfolio.pdf";
 
 function Footer() {
   return (
@@ -9,9 +10,18 @@ function Footer() {
             <h4 className="text-2xl text-primary-900 text-center sm:text-left mb-2">
               GHI FORMWORK SOLUTIONS
             </h4>
-            <p className="text-slate-700 text-center sm:text-left text-sm sm:text-base">
+            <p className="text-slate-700 text-center sm:text-left text-sm sm:text-base mb-2">
               Where Strategy Takes Shape
             </p>
+            <button className="flex justify-center sm:justify-start w-full">
+              <a
+                href={portfolio}
+                target="_blank"
+                className="text-primary-500 hover:text-primary-700"
+              >
+                Download Portfolio
+              </a>
+            </button>
           </div>
           <ul className="flex gap-2 flex-wrap md:gap-10 items-center justify-center px-4 py-2 rounded-sm">
             <li>
