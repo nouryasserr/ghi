@@ -1,4 +1,4 @@
-import projects from "../../assets/imgs/about.jpeg";
+import projects from "../../assets/imgs/project.jpeg";
 import project01 from "../../assets/imgs/project01.jpeg";
 import project02 from "../../assets/imgs/project02.jpeg";
 import project03 from "../../assets/imgs/project03.jpeg";
@@ -18,9 +18,9 @@ function Projects() {
         <div className="absolute bottom-0 left-0">
           <div className="p-4 sm:p-10 md:w-3/5 text-center sm:text-left">
             <h2 className="text-white pb-2 md:pb-5 text-xl md:text-4xl xl:text-5xl text-nowrap">
-              Projects That Define
+              Sample of Our
               <span className="font-medium md:pt-4 block text-primary-500">
-                Skylines
+                Projects
               </span>
             </h2>
             <p className="text-slate-300 text-sm sm:text-base xl:text-lg">

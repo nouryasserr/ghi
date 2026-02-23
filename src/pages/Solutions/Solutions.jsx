@@ -68,7 +68,7 @@ function Solutions() {
                 </li>
               </ul>
               <NavLink
-                to={"/solutions"}
+                to={"/wallformwork"}
                 className={
                   "flex items-center gap-2 text-primary-500 hover:gap-3 transition-all duration-300"
                 }
@@ -108,7 +108,7 @@ function Solutions() {
                 </li>
               </ul>
               <NavLink
-                to={"/solutions"}
+                to={"/columnformwork"}
                 className={
                   "flex items-center gap-2 text-primary-500 hover:gap-3 transition-all duration-300"
                 }
@@ -147,7 +147,7 @@ function Solutions() {
                 </li>
               </ul>
               <NavLink
-                to={"/solutions"}
+                to={"/climbingsystems"}
                 className={
                   "flex items-center gap-2 text-primary-500 hover:gap-3 transition-all duration-300"
                 }

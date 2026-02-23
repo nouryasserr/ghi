@@ -19,7 +19,7 @@ function Footer() {
                 target="_blank"
                 className="text-primary-500 hover:text-primary-700"
               >
-                Download Portfolio
+                Download Product Catalog
               </a>
             </button>
           </div>
