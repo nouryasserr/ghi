@@ -181,11 +181,12 @@ function Projects() {
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold">
-                King Fahd Bridge Extension
+                Regency Hotel
               </h5>
               <p className="text-slate-700">
-                Critical infrastructure project with specialized heavy-duty
-                shoring for bridge segments
+                Located in Abu Dhabi, United Arab Emirates, the project features
+                varied building heights and areas, with a total duration of 24
+                months
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-sm gap-2">
@@ -194,12 +195,12 @@ function Projects() {
                 </li>
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Custom Engineering</span>
+                  <span>Inclined Special Columns</span>
                 </li>
-                <li className="flex items-center text-sm gap-2">
+                {/* <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
                   <span>Heavy Load Support</span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

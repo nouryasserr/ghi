@@ -1,4 +1,8 @@
 import solution01 from "../../assets/imgs/solution1.jpeg";
+import wall01 from "../../assets/imgs/wall01.jpeg";
+import wall02 from "../../assets/imgs/wall02.jpeg";
+import wall03 from "../../assets/imgs/wall03.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Wallformwork() {
   return (
@@ -22,6 +26,54 @@ function Wallformwork() {
         </div>
       </div>
       {/* end-intro */}
+      {/* trio */}
+      <div className="container mt-14 lg:mt-28">
+        <div className="flex flex-col md:flex-row gap-8 items-center">
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${wall01})` }}
+          >
+            <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">Flex 50</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${wall02})` }}
+          >
+            <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">TriTec</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${wall03})` }}
+          >
+            <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">Brace Frames</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* end-trio */}
     </>
   );
 }

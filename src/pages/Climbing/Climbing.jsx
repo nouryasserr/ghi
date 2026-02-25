@@ -1,4 +1,8 @@
 import solution03 from "../../assets/imgs/solution3.jpeg";
+import climbing01 from "../../assets/imgs/climbing01.jpeg";
+import climbing02 from "../../assets/imgs/climbing02.jpeg";
+import climbing03 from "../../assets/imgs/climbing03.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Climbing() {
   return (
@@ -22,6 +26,54 @@ function Climbing() {
         </div>
       </div>
       {/* end-intro */}
+      {/* trio */}
+      <div className="container mt-14 lg:mt-28">
+        <div className="flex flex-col md:flex-row gap-8 items-center">
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${climbing01})` }}
+          >
+            <h3 className="text-2xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">CS Climbing</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${climbing02})` }}
+          >
+            <h3 className="text-2xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">Shaft Platform</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+          <div
+            className="bg-cover bg-center h-[300px] overflow-hidden relative w-full md:w-auto md:grow rounded-sm px-4"
+            style={{ backgroundImage: `url(${climbing03})` }}
+          >
+            <h3 className="text-2xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
+              <span className="py-2">Safety Systems</span>
+              <NavLink
+                to={"/solutions"}
+                className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
+              >
+                <i className="fa-solid fa-arrow-right text-white"></i>
+              </NavLink>
+            </h3>
+          </div>
+        </div>
+      </div>
+      {/* end-trio */}
     </>
   );
 }
