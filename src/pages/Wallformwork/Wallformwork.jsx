@@ -36,7 +36,7 @@ function Wallformwork() {
             <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
               <span className="py-2">Flex 50</span>
               <NavLink
-                to={"/solutions"}
+                to={"/columnformwork"}
                 className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
               >
                 <i className="fa-solid fa-arrow-right text-white"></i>
@@ -50,7 +50,7 @@ function Wallformwork() {
             <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
               <span className="py-2">TriTec</span>
               <NavLink
-                to={"/solutions"}
+                to={"/columnformwork"}
                 className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
               >
                 <i className="fa-solid fa-arrow-right text-white"></i>
@@ -64,7 +64,7 @@ function Wallformwork() {
             <h3 className="text-2xl xs:text-3xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
               <span className="py-2">Brace Frames</span>
               <NavLink
-                to={"/solutions"}
+                to={"/columnformwork"}
                 className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
               >
                 <i className="fa-solid fa-arrow-right text-white"></i>

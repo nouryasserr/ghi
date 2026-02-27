@@ -31,7 +31,7 @@ function Shoringsystem() {
             <h3 className="text-2xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
               <span className="py-2">D15 Shoring</span>
               <NavLink
-                to={"/solutions"}
+                to={"/slabsupport"}
                 className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
               >
                 <i className="fa-solid fa-arrow-right text-white"></i>
@@ -45,7 +45,7 @@ function Shoringsystem() {
             <h3 className="text-2xl bg-white px-3 flex justify-between items-center font-medium rounded-sm absolute bottom-4 w-full">
               <span className="py-2">Modular Scaffolding</span>
               <NavLink
-                to={"/solutions"}
+                to={"/slabsupport"}
                 className="bg-primary-500 px-4 py-2 rounded-l-full cursor-pointer hover:bg-primary-700 transition-all duration-300"
               >
                 <i className="fa-solid fa-arrow-right text-white"></i>
