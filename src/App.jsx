@@ -9,8 +9,8 @@ import Technology from "./pages/Technology/Technology";
 import Wallformwork from "./pages/Wallformwork/Wallformwork";
 import Columnformwork from "./pages/Columnformwork/Columnformwork";
 import Climbing from "./pages/Climbing/Climbing";
-import Shoring from "./pages/shoring/shoring";
 import Slab from "./pages/Slab/Slab";
+import Shoring from "./pages/Shoring/Shoring";
 
 function App() {
   const router = createBrowserRouter([
@@ -30,7 +30,7 @@ function App() {
         { path: "/wallformwork", element: <Wallformwork /> },
         { path: "/columnformwork", element: <Columnformwork /> },
         { path: "/climbingsystems", element: <Climbing /> },
-        { path: "/shoringsystems", element: <Shoring /> },
+        { path: "/shoring", element: <Shoring /> },
         { path: "/slabsupport", element: <Slab /> },
       ],
     },

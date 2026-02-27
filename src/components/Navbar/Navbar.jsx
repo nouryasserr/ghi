@@ -94,7 +94,7 @@ function Navbar() {
                   </div>
                   <div>
                     <NavLink
-                      to="/shoringsystems"
+                      to="/shoring"
                       className="font-semibold block mb-3 text-primary-600"
                     >
                       Shoring Systems
