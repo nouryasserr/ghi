@@ -27,6 +27,8 @@ function Navbar() {
       isActive ? "!font-semibold !text-black" : ""
     }`;
 
+  const [solutionsOpen, setSolutionsOpen] = useState(false);
+
   return (
     <nav
       className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
@@ -44,7 +46,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li className="relative group">
-            <NavLink className={linkClass} to="/solutions">
+            <NavLink className={linkClass} to="/wallformwork">
               Solutions
             </NavLink>
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200">
@@ -151,10 +153,42 @@ function Navbar() {
               About
             </NavLink>
           </li>
-          <li onClick={() => setOpen(false)}>
-            <NavLink className={linkClass} to="/solutions">
+          <li>
+            <button
+              onClick={() => setSolutionsOpen(!solutionsOpen)}
+              className="w-full text-left py-2 font-medium text-lg text-slate-700"
+            >
               Solutions
-            </NavLink>
+            </button>
+            {solutionsOpen && (
+              <ul className="pl-2 space-y-2 mt-2">
+                <li>
+                  <NavLink to="/wallformwork" onClick={() => setOpen(false)}>
+                    Wall Formwork
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/columnformwork" onClick={() => setOpen(false)}>
+                    Column Formwork
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/climbingsystems" onClick={() => setOpen(false)}>
+                    Climbing Systems
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shoring" onClick={() => setOpen(false)}>
+                    Shoring Systems
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/slabsupport" onClick={() => setOpen(false)}>
+                    Slab Support
+                  </NavLink>
+                </li>
+              </ul>
+            )}
           </li>
           <li onClick={() => setOpen(false)}>
             <NavLink className={linkClass} to="/projects">
