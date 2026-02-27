@@ -1,10 +1,8 @@
 import projects from "../../assets/imgs/project.jpeg";
 import project01 from "../../assets/imgs/project01.jpeg";
-import project02 from "../../assets/imgs/project02.jpeg";
 import project03 from "../../assets/imgs/project03.jpeg";
 import project04 from "../../assets/imgs/project04.jpeg";
 import project05 from "../../assets/imgs/project05.jpeg";
-import project06 from "../../assets/imgs/project06.jpeg";
 
 function Projects() {
   return (
@@ -55,37 +53,7 @@ function Projects() {
         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center mt-12 gap-8">
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
             <img
-              src={project01}
-              alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
-            />
-            <div className="mt-2 p-4 space-y-3 xs:space-y-4">
-              <h5 className="text-xl xs:text-2xl font-semibold">
-                Dubai Marina Twin Towers
-              </h5>
-              <p className="text-slate-700">
-                Twin 47-story luxury residential towers featuring advanced
-                self-climbing formwork systems
-              </p>
-              <ul className="space-y-3">
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Climbing Systems</span>
-                </li>
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Wall Formwork</span>
-                </li>
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Column Formwork</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
-            <img
-              src={project02}
+              src={projects}
               alt="Solution 1"
               className="h-52 w-full rounded-t-xl object-cover"
             />
@@ -97,7 +65,7 @@ function Projects() {
                 Mega-scale hospitality complex serving millions of pilgrims with
                 innovative formwork deployment
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 border-b pb-4">
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
                   <span>Shoring Systems</span>
@@ -111,6 +79,88 @@ function Projects() {
                   <span>Custom Solutions</span>
                 </li>
               </ul>
+              <div className="flex justify-around items-center">
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Heights
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    12,500 m²
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Areas
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    24 Months
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Duration
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
+            <img
+              src={project04}
+              alt="Solution 1"
+              className="h-52 w-full rounded-t-xl object-cover"
+            />
+            <div className="mt-2 p-4 space-y-3 xs:space-y-4">
+              <h5 className="text-xl xs:text-2xl font-semibold">
+                Jurainah Cultural Complex
+              </h5>
+              <p className="text-slate-700">
+                A highlighting GHI’s expertise with bespoke formwork for unique
+                curves and cantilevers
+              </p>
+              <ul className="space-y-3 border-b pb-4">
+                <li className="flex items-center text-sm gap-2">
+                  <i className="fa-solid fa-check text-primary-500"></i>
+                  <span>Shoring System </span>
+                </li>
+                <li className="flex items-center text-sm gap-2">
+                  <i className="fa-solid fa-check text-primary-500"></i>
+                  <span>Wall Formwork</span>
+                </li>
+                <li className="flex items-center text-sm gap-2">
+                  <i className="fa-solid fa-check text-primary-500"></i>
+                  <span>Column Formwork</span>
+                </li>
+              </ul>
+              <div className="flex justify-around items-center">
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Heights
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    12,500 m²
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Areas
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    24 Months
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Duration
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
@@ -127,7 +177,7 @@ function Projects() {
                 62-floor residential tower with automated climbing systems
                 achieving 3-day cycle times
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 border-b pb-4">
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
                   <span>Climbing Systems</span>
@@ -141,36 +191,84 @@ function Projects() {
                   <span>Safety Platforms</span>
                 </li>
               </ul>
+              <div className="flex justify-around items-center">
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    62 floors
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Heights
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    85,000 m²
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Area
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    24 Months
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Duration
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
             <img
-              src={project04}
+              src={project01}
               alt="Solution 1"
               className="h-52 w-full rounded-t-xl object-cover"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold">
-                Business Bay Complex
+                Increasing Haram Capacity
               </h5>
               <p className="text-slate-700">
-                Mixed-use development featuring office spaces and retail with
-                optimized formwork cycles
+                Mega Scale project aims to increase the building capacity to
+                accommodate more pilgrims
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3  border-b pb-4">
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Wall Formwork</span>
+                  <span>Mega Trusses</span>
                 </li>
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Column Formwork</span>
-                </li>
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Slab Support</span>
+                  <span>Beam Supports</span>
                 </li>
               </ul>
+              <div className="flex justify-around items-center">
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Heights
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Areas
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    36 Months
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Duration
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
@@ -184,11 +282,10 @@ function Projects() {
                 Regency Hotel
               </h5>
               <p className="text-slate-700">
-                Located in Abu Dhabi, United Arab Emirates, the project features
-                varied building heights and areas, with a total duration of 24
-                months
+                In Abu Dhabi, the project features varied building heights, with
+                a total duration of 24 months
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 border-b pb-4">
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
                   <span>Shoring Systems</span>
@@ -197,41 +294,33 @@ function Projects() {
                   <i className="fa-solid fa-check text-primary-500"></i>
                   <span>Inclined Special Columns</span>
                 </li>
-                {/* <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Heavy Load Support</span>
-                </li> */}
               </ul>
-            </div>
-          </div>
-          <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[413px]">
-            <img
-              src={project06}
-              alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
-            />
-            <div className="mt-2 p-4 space-y-3 xs:space-y-4">
-              <h5 className="text-xl xs:text-2xl font-semibold">
-                Marina Heights
-              </h5>
-              <p className="text-slate-700">
-                Luxury waterfront residences with challenging cantilever designs
-                and custom formwork solutions
-              </p>
-              <ul className="space-y-3">
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Climbing Systems</span>
-                </li>
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Wall Formwork</span>
-                </li>
-                <li className="flex items-center text-sm gap-2">
-                  <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Edge Protection</span>
-                </li>
-              </ul>
+              <div className="flex justify-around items-center">
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Heights
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    Varied
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Areas
+                  </span>
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-primary-500 text-center font-medium">
+                    24 Months
+                  </span>
+                  <span className="text-xs text-slate-600 text-center">
+                    Duration
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
