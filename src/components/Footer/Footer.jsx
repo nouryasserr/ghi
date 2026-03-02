@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import portfolio from "../../assets/portfolio.pdf";
+import portfolio from "../../assets/Catalog.pdf";
 
 function Footer() {
   return (
@@ -36,7 +36,7 @@ function Footer() {
             </li>
             <li>
               <NavLink
-                to={"/solutions"}
+                to={"/wallformwork"}
                 className={
                   "text-lg font-semibold hover:underline transition-all duration-300"
                 }

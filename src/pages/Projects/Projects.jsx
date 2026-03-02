@@ -12,7 +12,7 @@ function Projects() {
         className="bg-cover bg-center w-full h-[350px] sm:h-[350px] overflow-hidden relative"
         style={{ backgroundImage: `url(${projects})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-70"></div>
         <div className="absolute bottom-0 left-0">
           <div className="p-4 sm:p-10 md:w-3/5 text-center sm:text-left">
             <h2 className="text-white pb-2 md:pb-5 text-xl md:text-4xl xl:text-5xl text-nowrap">
@@ -171,16 +171,16 @@ function Projects() {
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold">
-                Metropolitan Tower
+                Blue waters Island - Dubai
               </h5>
               <p className="text-slate-700">
-                62-floor residential tower with automated climbing systems
-                achieving 3-day cycle times
+                Aerial view of Blue Waters Island in construction in Dubai,
+                United Arab Emirates
               </p>
               <ul className="space-y-3 border-b pb-4">
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Climbing Systems</span>
+                  <span>shoring system</span>
                 </li>
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
@@ -188,13 +188,13 @@ function Projects() {
                 </li>
                 <li className="flex items-center text-sm gap-2">
                   <i className="fa-solid fa-check text-primary-500"></i>
-                  <span>Safety Platforms</span>
+                  <span>column Formwork</span>
                 </li>
               </ul>
               <div className="flex justify-around items-center">
                 <div className="flex flex-col">
                   <span className="text-primary-500 text-center font-medium">
-                    62 floors
+                    Varied
                   </span>
                   <span className="text-xs text-slate-600 text-center">
                     Heights
@@ -202,7 +202,7 @@ function Projects() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-primary-500 text-center font-medium">
-                    85,000 m²
+                    320,000 m²
                   </span>
                   <span className="text-xs text-slate-600 text-center">
                     Area
@@ -210,7 +210,7 @@ function Projects() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-primary-500 text-center font-medium">
-                    24 Months
+                    64 Months
                   </span>
                   <span className="text-xs text-slate-600 text-center">
                     Duration
@@ -226,8 +226,8 @@ function Projects() {
               className="h-52 w-full rounded-t-xl object-cover"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
-              <h5 className="text-xl xs:text-2xl font-semibold">
-                Increasing Haram Capacity
+              <h5 className="text-xl xs:text-[23px] font-semibold">
+                Increasing Haram Mataf Capacity
               </h5>
               <p className="text-slate-700">
                 Mega Scale project aims to increase the building capacity to

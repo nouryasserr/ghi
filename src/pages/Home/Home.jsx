@@ -1,44 +1,49 @@
 import { NavLink } from "react-router-dom";
-import cover from "../../assets/imgs/cover.jpeg";
-import project01 from "../../assets/imgs/project01.jpeg";
-import project02 from "../../assets/imgs/project02.jpeg";
+import cover from "../../assets/imgs/cover.mp4";
+import project01 from "../../assets/imgs/project.jpeg";
+import project02 from "../../assets/imgs/project04.jpeg";
 import project03 from "../../assets/imgs/project03.jpeg";
-import project04 from "../../assets/imgs/project04.jpeg";
+import project04 from "../../assets/imgs/project01.jpeg";
 import solution01 from "../../assets/imgs/solution1.jpeg";
 import solution02 from "../../assets/imgs/solution2.jpeg";
 import solution03 from "../../assets/imgs/solution3.jpeg";
 import global from "../../assets/imgs/global.jpeg";
 import future from "../../assets/imgs/future.jpeg";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 function Home() {
-  const fullText =
-    "Delivering flexible, tailor-made formwork solutions through an engineering-driven approach, with a strong and consistent focus on quality and innovation";
+  // const fullText =
+  //   "Delivering flexible, tailor-made formwork solutions through an engineering-driven approach, with a strong and consistent focus on quality and innovation";
 
-  const [displayedText, setDisplayedText] = useState("");
+  // const [displayedText, setDisplayedText] = useState("");
 
-  useEffect(() => {
-    let i = 0;
+  // useEffect(() => {
+  //   let i = 0;
 
-    const interval = setInterval(() => {
-      setDisplayedText(fullText.slice(0, i + 1));
-      i++;
+  //   const interval = setInterval(() => {
+  //     setDisplayedText(fullText.slice(0, i + 1));
+  //     i++;
 
-      if (i === fullText.length) clearInterval(interval);
-    }, 30);
+  //     if (i === fullText.length) clearInterval(interval);
+  //   }, 30);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <>
       {/* intro */}
       <div className="container mt-3">
-        <div
-          className="bg-cover bg-center w-full h-[350px] sm:h-[550px] rounded-3xl overflow-hidden relative"
-          style={{ backgroundImage: `url(${cover})` }}
-        >
-          <div className="absolute inset-0 bg-black bg-opacity-35"></div>
+        <div className="w-full h-[350px] sm:h-[550px] rounded-3xl overflow-hidden relative">
+          <video
+            className="absolute inset-0 w-full h-full object-cover"
+            src={cover}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-75 xs:bg-opacity-65"></div>
           <div className="absolute bottom-0 left-0">
             <div className="p-4 sm:p-10 sm:w-3/5 text-center sm:text-left">
               <h1 className="text-white pb-2 sm:pb-5 text-xl sm:text-4xl xl:text-6xl text-nowrap">
@@ -46,7 +51,9 @@ function Home() {
                 <span className="font-medium sm:pt-4 block">Takes Shape</span>
               </h1>
               <p className="text-slate-300 text-sm sm:text-base xl:text-lg min-h-[60px]">
-                {displayedText}
+                Delivering flexible, tailor-made formwork solutions through an
+                engineering-driven approach, with a strong and consistent focus
+                on quality and innovation
               </p>
             </div>
             <div className="bg-white p-2 sm:p-4 pb-0 w-fit sm:w-96 rounded-tr-3xl">
@@ -68,7 +75,7 @@ function Home() {
         <div className="lg:w-1/2 flex flex-col items-center lg:items-start justify-between">
           <div className="mb-8 lg:mb-0">
             <h3 className="text-center lg:text-left text-2xl xs:text-3xl xl:text-4xl mb-2 xl:mb-6 font-semibold">
-              About GHI Formwork
+              About GHI Formwork Solutions
             </h3>
             <p className="text-center lg:text-left text-sm xs:text-base xl:text-lg text-slate-700">
               From our German engineering origins in Gelsenkirchen to emerging
@@ -353,7 +360,7 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Business Bay Complex
+                Increasing Haram Capacity
               </p>
             </div>
           </div>
@@ -375,7 +382,7 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Makkah Grand Development
+                Regency Hotel
               </p>
             </div>
           </div>
@@ -386,13 +393,13 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Dubai Marina Twin Towers
+                Makkah Grand Development
               </p>
             </div>
           </div>
           <div className="area01">
             <h4 className="text-2xl xs:text-3xl text-center xs:text-left mb-4 font-semibold xs:font-medium">
-              Projects That Define Skylines
+              Sample Projects
             </h4>
             <p className="text-sm xs:text-base text-center xs:text-left text-slate-700">
               From iconic towers to large-scale infrastructure projects, our

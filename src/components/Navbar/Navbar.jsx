@@ -147,7 +147,7 @@ function Navbar() {
         </button>
       </div>
       {open && (
-        <ul className="md:hidden px-6 pb-4 space-y-3">
+        <ul className="md:hidden px-6 pb-4 space-y-2">
           <li onClick={() => setOpen(false)}>
             <NavLink className={linkClass} to="/about">
               About
@@ -163,27 +163,47 @@ function Navbar() {
             {solutionsOpen && (
               <ul className="pl-2 space-y-2 mt-2">
                 <li>
-                  <NavLink to="/wallformwork" onClick={() => setOpen(false)}>
+                  <NavLink
+                    to="/wallformwork"
+                    className={"text-slate-600"}
+                    onClick={() => setOpen(false)}
+                  >
                     Wall Formwork
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/columnformwork" onClick={() => setOpen(false)}>
+                  <NavLink
+                    to="/columnformwork"
+                    className={"text-slate-600"}
+                    onClick={() => setOpen(false)}
+                  >
                     Column Formwork
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/climbingsystems" onClick={() => setOpen(false)}>
+                  <NavLink
+                    to="/climbingsystems"
+                    className={"text-slate-600"}
+                    onClick={() => setOpen(false)}
+                  >
                     Climbing Systems
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/shoring" onClick={() => setOpen(false)}>
+                  <NavLink
+                    to="/shoring"
+                    className={"text-slate-600"}
+                    onClick={() => setOpen(false)}
+                  >
                     Shoring Systems
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/slabsupport" onClick={() => setOpen(false)}>
+                  <NavLink
+                    to="/slabsupport"
+                    className={"text-slate-600"}
+                    onClick={() => setOpen(false)}
+                  >
                     Slab Support
                   </NavLink>
                 </li>

@@ -8,7 +8,7 @@ function About() {
         className="bg-cover bg-center w-full h-[350px] overflow-hidden relative"
         style={{ backgroundImage: `url(${about})` }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-80"></div>
         <div className="absolute bottom-0 left-0">
           <div className="p-4 sm:p-10 md:w-3/5 text-center sm:text-left">
             <h2 className="text-white pb-2 md:pb-5 text-xl md:text-4xl xl:text-5xl text-nowrap">
@@ -73,7 +73,7 @@ function About() {
       </div>
       {/* end-about */}
       {/* team */}
-      <div className="container mt-14 lg:mt-28">
+      {/* <div className="container mt-14 lg:mt-28">
         <div>
           <h4 className="text-2xl xs:text-3xl text-center mb-4 font-semibold xs:font-medium">
             Leadership Team
@@ -126,11 +126,21 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* end-team */}
       {/* certified */}
       <div className="container mt-14 lg:mt-28">
-        <div className="flex flex-wrap justify-center gap-8">
+        <div>
+          <h4 className="text-2xl xs:text-3xl text-center mb-4 font-semibold xs:font-medium">
+            Certified to Deliver Excellence
+          </h4>
+          <p className="text-sm xs:text-base text-center xl:w-1/2 mx-auto text-slate-700">
+            Our internationally recognized certifications reflect our commitment
+            to quality, environmental responsibility, safety, and structural
+            integrity
+          </p>
+        </div>
+        <div className="flex flex-wrap justify-center gap-8 mt-12">
           <div className="flex flex-col justify-center md:border-r p-12">
             <div className="text-center text-primary-500 text-3xl font-semibold mb-4">
               ISO 9001
