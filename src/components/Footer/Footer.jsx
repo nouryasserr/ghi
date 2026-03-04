@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import portfolio from "../../assets/Catalog.pdf";
+import portfolio from "../../assets/Product-Catalog.pdf";
 
 function Footer() {
   return (
