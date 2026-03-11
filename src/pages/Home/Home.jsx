@@ -36,7 +36,7 @@ function Home() {
       <div className="container mt-3">
         <div className="w-full h-[350px] sm:h-[550px] rounded-3xl overflow-hidden relative">
           <video
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover lg:object-top"
             src={cover}
             autoPlay
             loop
@@ -360,7 +360,7 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Increasing Haram Capacity
+                Increasing Haram Mataf Capacity
               </p>
             </div>
           </div>
@@ -371,7 +371,7 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Metropolitan Tower
+                Blue waters Island - Dubai
               </p>
             </div>
           </div>
@@ -382,7 +382,7 @@ function Home() {
             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-2xl cursor-pointer hover:opacity-75 transition-opacity duration-300"></div>
             <div className="absolute right-4 bottom-2">
               <p className="text-white text-sm font-light underline">
-                Regency Hotel
+                Jurainah Cultural Complex
               </p>
             </div>
           </div>

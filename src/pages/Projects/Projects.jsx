@@ -210,7 +210,7 @@ function Projects() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-primary-500 text-center font-medium">
-                    64 Months
+                    60 Months
                   </span>
                   <span className="text-xs text-slate-600 text-center">
                     Duration

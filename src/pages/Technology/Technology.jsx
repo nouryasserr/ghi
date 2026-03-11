@@ -1,7 +1,5 @@
 import technology from "../../assets/imgs/technology.jpeg";
-import solution01 from "../../assets/imgs/solution1.jpeg";
-import solution02 from "../../assets/imgs/solution2.jpeg";
-import project03 from "../../assets/imgs/project03.jpeg";
+import solution01 from "../../assets/imgs/cover.png";
 
 function Technology() {
   return (
@@ -86,7 +84,7 @@ function Technology() {
             <img
               src={solution01}
               alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
+              className="h-52 w-full rounded-t-xl object-cover lg:object-top"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold text-center">
@@ -123,9 +121,9 @@ function Technology() {
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[630px]">
             <img
-              src={solution02}
+              src={solution01}
               alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
+              className="h-52 w-full rounded-t-xl object-cover lg:object-top"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold text-center">
@@ -163,9 +161,9 @@ function Technology() {
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[630px]">
             <img
-              src={solution02}
+              src={solution01}
               alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
+              className="h-52 w-full rounded-t-xl object-cover lg:object-top"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold text-center">
@@ -202,9 +200,9 @@ function Technology() {
           </div>
           <div className="grow shadow-lg lg:min-w-[300px] lg:max-w-[630px]">
             <img
-              src={project03}
+              src={solution01}
               alt="Solution 1"
-              className="h-52 w-full rounded-t-xl object-cover"
+              className="h-52 w-full rounded-t-xl object-cover lg:object-top"
             />
             <div className="mt-2 p-4 space-y-3 xs:space-y-4">
               <h5 className="text-xl xs:text-2xl font-semibold text-center">
