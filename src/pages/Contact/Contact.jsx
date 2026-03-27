@@ -104,11 +104,12 @@ function Contact() {
               }}
             ></div>
             <h4 className="text-lg sm:text-2xl text-white font-semibold">
-              +1 (555) 123-4567
+              uae@ghi-formwork.com
             </h4>
           </div>
           <p className="text-slate-100 mt-4 sm:text-lg">
-            Call us for any inquiries or support, Our team is here to assist you
+            Email us for any inquiries or support, Our team is here to assist
+            you
           </p>
         </div>
         <div className="bg-zinc-400 rounded-2xl py-6 px-4 md:w-1/3">
@@ -121,7 +122,7 @@ function Contact() {
               }}
             ></div>
             <h4 className="text-lg sm:text-2xl text-white font-semibold">
-              contact@example.com
+              info@ghi-formwork.com
             </h4>
           </div>
           <p className="text-slate-100 mt-4 sm:text-lg">
@@ -153,7 +154,7 @@ function Contact() {
       <div className="container mt-14 lg:mt-28 rounded-2xl overflow-hidden">
         <div style={{ width: "100%", height: "450px" }}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.3069245874594!2d55.343231274838345!3d25.22658533051082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d6feb6a62ab%3A0xb790b66d247cbd21!2sBusiness%20Bay%20Bridge%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1771417622026!5m2!1sen!2seg"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.6767923895454!2d55.1180464!3d24.909004000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f0ca0544f8c97%3A0xa553460145962ce2!2sMadinat%20Al%20Mataar%20-%20Dubai%20South%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2seg!4v1774635643901!5m2!1sen!2seg"
             style={{
               border: 0,
               width: "100%",
